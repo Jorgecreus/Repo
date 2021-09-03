@@ -309,7 +309,7 @@ def head():
 
     wb_template.save(excel_name) 
 
-    send_email(config_gmail_user,config_gmail_pass,config_head,config_email_copia,excel_name,'Cierre comisiones equipo comercial '+periodo,config_msg_head)
+    send_email(config_gmail_user,config_gmail_pass,config_head,[config_email_copia,config_vp],excel_name,'Cierre comisiones equipo comercial '+periodo,config_msg_head)
     os.remove(excel_name)
 
 

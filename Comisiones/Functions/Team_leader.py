@@ -268,7 +268,7 @@ def tl(only_one_tl=None):
                     contador_overview_comercial+=1
           wb_template.save(excel_name) 
      
-          send_email(config_gmail_user,config_gmail_pass,config_email_tl[tl],config_email_copia,excel_name,'Cierre comisiones '+tl+' '+periodo,config_msg_tl)
+          send_email(config_gmail_user,config_gmail_pass,config_email_tl[tl],[config_email_copia,config_head],excel_name,'Cierre comisiones '+tl+' '+periodo,config_msg_tl)
           os.remove(excel_name)
           if only_one_tl != None:
                 break

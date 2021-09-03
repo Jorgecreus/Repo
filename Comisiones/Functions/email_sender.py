@@ -17,7 +17,7 @@ def send_email(fromaddr,password,toaddr,cc,attachment,subject,body):
 
     # storing the senders email address
     msg['From'] = fromaddr
-    msg['Cc'] = cc
+    msg['Cc'] = ", ".join(cc)
     msg['To'] = toaddr
     msg['Subject'] = subject
 

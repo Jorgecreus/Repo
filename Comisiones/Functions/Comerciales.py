@@ -1,4 +1,3 @@
-from hashlib import algorithms_available
 from .Config import *
 from .email_sender import send_email
 

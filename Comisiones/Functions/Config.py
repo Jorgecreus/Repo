@@ -8,7 +8,7 @@ config_email_copia = 'jorge.creus@autohero.com'
 config_email_tl = {'RRU':'jorge.creus@autohero.com','LGG':'jorge.creus@autohero.com','JPV':'jorge.creus@autohero.com'}
 
 
-
+prueba = ''
 #LOV
 
 config_more_200 = 50
